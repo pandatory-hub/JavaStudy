@@ -1,0 +1,9 @@
+{
+    "java.home": "C:\\Program Files\\AdoptOpenJDK\\jdk-11.0.9.101-hotspot\\",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    }
+}
