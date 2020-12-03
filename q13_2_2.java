@@ -1,4 +1,4 @@
-public class q13_2_2 {
+public class Q13_2_2 {
 
   public static void chaArr(int[][] arr) {
     int[] rarr = arr[arr.length - 1];
