@@ -10,6 +10,8 @@ public class Q20_1 {
     System.out.println("입력 2 : ");
     int Z = sc.nextInt();
 
+    sc.close();
+
     int min, max;
 
     if (A > Z) {
