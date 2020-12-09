@@ -34,5 +34,4 @@ public class ArrayObjSearch {
     System.out.println(ar[idx]);
 
   }
-
 }
