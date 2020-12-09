@@ -26,7 +26,6 @@ public class Wrapping {
     wrapBox(box2);
     wrapBox(box3);
   }
-
   public static void wrapBox(Box box) {
     box.wrap();
   }
