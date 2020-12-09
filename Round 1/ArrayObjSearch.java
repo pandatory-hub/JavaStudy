@@ -1,3 +1,6 @@
+//This folder(Round 1) was created on December 3rd, 2020.
+//It ended on December 9, 2020.
+
 import java.util.Arrays;
 
 class Person3 implements Comparable {
@@ -34,5 +37,4 @@ public class ArrayObjSearch {
     System.out.println(ar[idx]);
 
   }
-
 }
