@@ -32,5 +32,4 @@ public class Q20_2_1 {
     for (Person p : ar)
       System.out.println(p);
   }
-
 }
