@@ -11,6 +11,11 @@ class Business implements Cloneable {
     System.out.println("회사 : " + comp);
     System.out.println("업무 : " + work);
   }
+
+  public Business clone() throws CloneNotSupportedException {
+    Business copy = (Business) super.clone();
+    return copy;
+  }
 }
 
 class PersonalInfo implements Cloneable {
@@ -29,9 +34,24 @@ class PersonalInfo implements Cloneable {
     System.out.println("나이 : " + age);
     bz.showBusinessInfo();
   }
+
+  public PersonalInfo clone() throws CloneNotSupportedException {
+    PersonalInfo cp = (PersonalInfo) super.clone();
+    cp.bz = bz.clone();
+    return cp;
+  }
 }
 
 public class Q19_2 {
-  PersonalInfo p1 = new PersonalInfo("김", 24, "sam", "a");
+  public static void main(String[] args) {
+    try {
+      PersonalInfo p1 = new PersonalInfo("김", 24, "sam", "a");
+      PersonalInfo cp = p1.clone();
 
+      p1.showPersonalInfo();
+      cp.showPersonalInfo();
+    } catch (CloneNotSupportedException e) {
+      e.printStackTrace();
+    }
+  }
 }
