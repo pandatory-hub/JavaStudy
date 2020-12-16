@@ -18,8 +18,8 @@ class Point2 {
 }
 
 class Rectangle {
-  private Point2 upperLeft; // 좌측 상단 좌표
-  private Point2 lowerRight; // 우측 하단 좌표
+  private Point2 upperLeft;
+  private Point2 lowerRight;
 
   public Rectangle(int x1, int y1, int x2, int y2) {
     upperLeft = new Point2(x1, y1);
