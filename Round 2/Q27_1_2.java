@@ -14,5 +14,4 @@ public class Q27_1_2 {
     for (String s : list)
       System.out.println(s);
   }
-
 }
